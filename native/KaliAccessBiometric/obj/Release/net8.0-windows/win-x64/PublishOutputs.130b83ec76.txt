@@ -1,0 +1,17 @@
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/KaliAccessBiometric.exe
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/DPCtlUruNet.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/DPCtlXUru.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpfj.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpfpdd.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpfpdd_4k.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpfpdd_ptapi.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpfr6.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpfr7.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/dpuareu_jni.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/DPUruNet.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/DPXUru.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/tfm.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/KaliAccessBiometric.dll
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/KaliAccessBiometric.deps.json
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/KaliAccessBiometric.runtimeconfig.json
+/app/applet/native/KaliAccessBiometric/bin/Release/net8.0-windows/win-x64/publish/KaliAccessBiometric.pdb

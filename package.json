@@ -1,0 +1,57 @@
+{
+  "name": "kaacc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "overrides": {
+    "node-domexception": "file:./utils/node-domexception-shim"
+  },
+  "description": "Kali Access - Sistema de Control de Acceso Deportivo y Biometría DigitalPersona",
+  "author": "Kali Deportivo",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "build:native": "dotnet publish native/KaliAccessBiometric/KaliAccessBiometric.csproj -c Release -r win-x64 --self-contained false",
+    "electron:dev": "npm run build && electron .",
+    "electron:start": "electron .",
+    "electron:pack": "npm run build && npm run build:native && electron-builder --dir --config electron-builder.json",
+    "electron:build": "npm run build && npm run build:native && electron-builder --config electron-builder.json"
+  },
+  "dependencies": {
+    "@capacitor/camera": "^6.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/filesystem": "^6.0.0",
+    "@capacitor/push-notifications": "^6.0.0",
+    "@capacitor/share": "^6.0.0",
+    "@google/genai": "^1.33.0",
+    "@mediapipe/tasks-vision": "0.10.9",
+    "@supabase/supabase-js": "^2.45.0",
+    "bcrypt-ts": "^8.0.1",
+    "bcryptjs": "2.4.3",
+    "framer-motion": "^12.35.2",
+    "html5-qrcode": "^2.3.8",
+    "jspdf": "2.5.1",
+    "jspdf-autotable": "3.8.2",
+    "lucide-react": "^1.14.0",
+    "motion": "^12.38.0",
+    "qrcode.react": "^3.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-easy-crop": "^5.0.7",
+    "react-range": "^1.8.14"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^45.0.0",
+    "electron-builder": "^26.15.3",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

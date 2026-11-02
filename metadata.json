@@ -1,0 +1,8 @@
+{
+  "name": "Remix KaAcc",
+  "description": "Sistema de control de acceso para gimnasios con reconocimiento facial impulsado por IA.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
